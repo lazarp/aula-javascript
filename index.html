@@ -6,6 +6,14 @@
         <script type="text/javascript" src="js/main.js"></script>
     </head>
     <body>
-        <h1>Minha Página</h1>       
+        <h1 id="titulo-pagina">Minha Página</h1>
+        <button type="button" onclick="botao()">Clique Aqui</button>
+        <button type="button" onclick="redirection()">Redirection</button>
+        <p id="mousemove" onmouseover="hover(this)" onmouseout="voltar(this)">Passe o mouse Aqui</p>
+        <select name="escolha" id="190230" class="escolha" onchange="trocaOp(this)">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </select>
     </body>
 </html>
